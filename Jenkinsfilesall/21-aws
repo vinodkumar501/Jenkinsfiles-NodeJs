@@ -1,0 +1,2 @@
+aws ec2 describe-instances --region ap-south-1 --query 'Reservations[*].Instances[*].[PublicIpAddress]' --output text
+aws ec2 describe-instances --region ap-south-1 --query 'Reservations.Instances.PublicIpAddress]' --output text'
